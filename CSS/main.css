@@ -1,10 +1,32 @@
 html{background-color: #c37de8;}
 
-H1 {
+H1, h2 {
   font-weight: normal;
-  font-size: 5rem;
+  font-size: 4rem;
   font-style: italic;
   text-decoration: underline;
   font-family: "sigmar one";
+  line-height:1.5;
+}
 
+ol {
+  list-style-type:none;
+  padding:0;
+}
+
+li{
+  font-weight: bold;
+}
+
+.best-dino {
+  font-style: italic;
+  color: white;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color:white;
 }
